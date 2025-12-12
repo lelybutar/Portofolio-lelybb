@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Lely N.F. Butarbutar</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- CSS lainnya -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">NfL</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section id="home" class="hero">
+    <div class="hero-container">
+        <div class="hero-left">
+            <p class="hero-greeting">Hi, I'm</p>
+            <h1 class="hero-name">Lely N.F. <span>Butarbutar</span></h1>
+            <div class="hero-image">
+                <img src="D:\Portofolio\IMG\IMG-20250623-WA0010.jpg" alt="Lely N.F. Butarbutar">
+            </div>
+        </div>
+        <div class="hero-right">
+            <p class="hero-description">
+                A final year Diploma III student in Computer Technology at the Del Institute of Technology with a focus on Internet of Things (IoT), Cloud Computing, Computer Networks, and Web Development. Actively involved in organizations in the Student Consultative Assembly (MPM) and the Study Program Student Association, which strengthens skills in communication, teamwork, and leadership. Accustomed to working collaboratively on projects, communicating effectively, and has a high learning spirit, discipline, and is able to adapt quickly to technological developments.
+            </p>
+            
+            <!-- Download CV Button -->
+            <div class="cv-download">
+                <a href="https://drive.google.com/file/d/1A4rR9j8oznJvKQX9hcn6Cr0Cblh5IddJ/view?usp=sharing" download="CV_Lely_NF_Butarbutar.pdf" class="cv-btn">
+                    <i class="fas fa-download"></i>
+                    Download CV
+                </a>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="http://www.linkedin.com/in/lely-n-f-butarbutar-5b2419362" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lelybutarbutar0204@gmail.com" target="_blank" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/6282163282837" target="_blank" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/lelybb_?igsh=MTQ3em8xd240ZmNwNQ==" target="_blank" title="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="portfolio" class="portfolio">
+    <div class="container">
+        <div class="section-title">
+            <h2>My Projects</h2>
+        </div>
+        <div class="portfolio-grid">
+            <!-- Project 1 -->
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <img src="D:\Portofolio\IMG\p1.png" alt="Siregar Aek Nalas Village Website">
+                </div>
+                <div class="portfolio-content">
+                    <p class="portfolio-category">Web Development (2023)</p>
+                    <h3>Siregar Aek Nalas Village Website</h3>
+                    <p>Developing village profile website as public information medium with accessible UI/UX...</p>
+                    <button class="view-btn" onclick="openModal('project1')">
+                        👁️ View Details
+                    </button>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <img src="D:\Portofolio\IMG\apotek.png" alt="Pharmacy Information Website">
+                </div>
+                <div class="portfolio-content">
+                    <p class="portfolio-category">Web Development (2024)</p>
+                    <h3>Pharmacy Information Website Porsea-Balige</h3>
+                    <p>Building pharmacy information website using WordPress and XAMPP...</p>
+                    <button class="view-btn" onclick="openModal('project2')">
+                        👁️ View Details
+                    </button>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <img src="D:\Portofolio\IMG\API.png" alt="CRUD Web Application">
+                </div>
+                <div class="portfolio-content">
+                    <p class="portfolio-category">Backend Development (2024)</p>
+                    <h3>CRUD Web Application & REST API</h3>
+                    <p>Developing PHP and MySQL-based CRUD application integrated with REST API...</p>
+                    <button class="view-btn" onclick="openModal('project3')">
+                        👁️ View Details
+                    </button>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <img src="D:\Portofolio\IMG\IOT.png" alt="Automatic Barrier System">
+                </div>
+                <div class="portfolio-content">
+                    <p class="portfolio-category">IoT & Embedded System (2024)</p>
+                    <h3>Automatic Barrier System (RFID)</h3>
+                    <p>Creating miniature automatic barrier system based on RFID and ultrasonic sensors...</p>
+                    <button class="view-btn" onclick="openModal('project4')">
+                        👁️ View Details
+                    </button>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <img src="D:\Portofolio\IMG\IOT WEATHER DATA COLLECTOR.png" alt="IoT Weather Data Collector">
+                </div>
+                <div class="portfolio-content">
+                    <p class="portfolio-category">IoT Project (2025)</p>
+                    <h3>IoT Weather Data Collector</h3>
+                    <p>Building ESP32-based system monitoring temperature, humidity, light, rainfall...</p>
+                    <button class="view-btn" onclick="openModal('project5')">
+                        👁️ View Details
+                    </button>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="portfolio-card">
+                <div class="portfolio-image">
+                    <img src="D:\Portofolio\IMG\weather.png" alt="IoT Weather Monitoring System">
+                </div>
+                <div class="portfolio-content">
+                    <p class="portfolio-category">IoT Project (2025)</p>
+                    <h3>IoT Weather Monitoring System</h3>
+                    <p>eveloped an IoT Weather Monitoring System using ESP32, LoRa communication....</p>
+                    <button class="view-btn" onclick="openModal('project6')">
+                        👁️ View Details
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal Project 1 -->
+<div id="modal-project1" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close-modal" onclick="closeModal('project1')">&times;</span>
+            <div class="category">Web Development • 2023</div>
+            <h2>Siregar Aek Nalas Village Website</h2>
+        </div>
+        <div class="modal-body">
+            <div class="project-images">
+                <img src="D:\Portofolio\IMG\p1.png" alt="Project Screenshot 1">
+                <img src="D:\Portofolio\IMG\p2.png" alt="Project Screenshot 2">
+                <img src="D:\Portofolio\IMG\p3.png" alt="Project Screenshot 2">
+                <img src="D:\Portofolio\IMG\p4.png" alt="Project Screenshot 2">
+            </div>
+
+            <div class="project-detail-section">
+                <h3>📋 Project Overview</h3>
+                <p>
+                    Developed a comprehensive village profile website for Siregar Aek Nalas to serve as a public information medium. 
+                    The website features an accessible and user-friendly UI/UX design, providing essential village information to residents 
+                    and visitors. Implemented responsive design principles to ensure optimal viewing across all devices.
+                </p>
+            </div>
+            <div class="project-detail-section">
+                <h3>🛠️ Technologies Used</h3>
+                <div class="tech-stack">
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Bootstrap</span>
+                    <span class="tech-tag">Responsive Design</span>
+                </div>
+            </div>
+
+            <div class="project-detail-section">
+                <h3>🎯 My Role & Responsibilities</h3>
+                <ul class="project-features">
+                    <li>Full-stack development of the website</li>
+                    <li>UI/UX design and implementation</li>
+                    <li>Content management system setup</li>
+                    <li>Performance optimization and testing</li>
+                    <li>Client communication and requirement gathering</li>
+                </ul>
+            </div>
+
+            <div class="project-links">
+                <a href="https://github.com/lelybutar/Projcet_PSW" class="project-link-btn">💻 View Code</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Project 2 -->
+<div id="modal-project2" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close-modal" onclick="closeModal('project2')">&times;</span>
+            <div class="category">Web Development • 2024</div>
+            <h2>Pharmacy Information Website Porsea-Balige</h2>
+        </div>
+        <div class="modal-body">
+            <div class="project-images">
+                <img src="D:\Portofolio\IMG\apotek.png" alt="Project Screenshot">
+                <img src="D:\Portofolio\IMG\apotek2.png" alt="Project Screenshot">
+                <img src="D:\Portofolio\IMG\apotek3.png" alt="Project Screenshot">
+            </div>
+
+            <div class="project-detail-section">
+                <h3>📋 Project Overview</h3>
+                <p>
+                    Built a comprehensive pharmacy information website using WordPress and XAMPP, designed to help users 
+                    find and compare medication prices across different pharmacies in the Porsea-Balige region. The platform 
+                    provides detailed pharmacy information categorized by location, making it easier for users to find nearby options.
+                </p>
+            </div>
+
+            <div class="project-detail-section">
+            </div>
+
+            <div class="project-detail-section">
+                <h3>🛠️ Technologies Used</h3>
+                <div class="tech-stack">
+                    <span class="tech-tag">WordPress</span>
+                    <span class="tech-tag">XAMPP</span>
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">CSS</span>
+                </div>
+            </div>
+
+            <div class="project-links">
+                <a href="https://drive.google.com/drive/folders/1iNA5aWvp7lWzMy_VdKeSB3-WXmi2n6sS?usp=sharing" class="project-link-btn">🔍 Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Project 3 -->
+<div id="modal-project3" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close-modal" onclick="closeModal('project3')">&times;</span>
+            <div class="category">Backend Development • 2024</div>
+            <h2>CRUD Web Application & REST API</h2>
+        </div>
+        <div class="modal-body">
+            <div class="project-images">
+                <img src="D:\Portofolio\IMG\API.png" alt="Project Screenshot">
+                <img src="D:\Portofolio\IMG\api2.png" alt="Project Screenshot">
+            </div>
+
+            <div class="project-detail-section">
+                <h3>📋 Project Overview</h3>
+                <p>
+                    Developed a full-featured CRUD (Create, Read, Update, Delete) web application with integrated REST API 
+                    using PHP and MySQL. The application supports all standard HTTP methods and includes comprehensive API 
+                    endpoints for real-time database manipulation, tested thoroughly using Postman.
+                </p>
+            </div>
+
+            <div class="project-detail-section">
+            </div>
+
+            <div class="project-detail-section">
+                <h3>🛠️ Technologies Used</h3>
+                <div class="tech-stack">
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">REST API</span>
+                    <span class="tech-tag">Postman</span>
+                    <span class="tech-tag">JSON</span>
+                    <span class="tech-tag">XAMPP</span>
+                </div>
+            </div>
+
+            <div class="project-links">
+                <a href="https://github.com/lelybb/quiz2-rest-api-lelybb" class="project-link-btn">💻 View Code</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Project 4 -->
+<div id="modal-project4" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close-modal" onclick="closeModal('project4')">&times;</span>
+            <div class="category">IoT & Embedded System • 2024</div>
+            <h2>Automatic Barrier System (RFID)</h2>
+        </div>
+        <div class="modal-body">
+            <div class="project-images">
+                <img src="D:\Portofolio\IMG\IOT.png" alt="Project Screenshot">
+                <img src="D:\Portofolio\IMG\IOT3.jpg" alt="Project Screenshot">
+                <img src="D:\Portofolio\IMG\IOT2.jpg" alt="Project Screenshot">
+                <img src="D:\Portofolio\IMG\IOT4.png" alt="Project Screenshot">
+            </div>
+
+            <div class="project-detail-section">
+                <h3>📋 Project Overview</h3>
+                <p>
+                    Developed an automated gate barrier system using Arduino, RFID authentication, and ultrasonic sensors. 
+                    The system validates registered RFID cards, detects approaching vehicles, and operates the barrier arm 
+                    using a servo motor with precise and reliable control. Audio-visual feedback is provided through a buzzer 
+                    and indicator responses during access approval or denial. This project enhances security by allowing only 
+                    authorized users to pass, improves efficiency by removing manual intervention, and demonstrates consistent 
+                    performance across various test scenarios.
+                </p>
+            </div>
+
+            <div class="project-detail-section">
+            </div>
+
+            <div class="project-detail-section">
+                <h3>🛠️ Technologies Used</h3>
+                <div class="tech-stack">
+                    <span class="tech-tag">Arduino</span>
+                    <span class="tech-tag">RFID Module</span>
+                    <span class="tech-tag">Ultrasonic Sensor</span>
+                    <span class="tech-tag">Servo Motor</span>
+                    <span class="tech-tag">C/C++</span>
+                    <span class="tech-tag">Buzzer</span>
+                </div>
+            </div>
+
+            <div class="project-links">
+                <a href="#" class="project-link-btn">💻 View Code</a>
+                <a href="#" class="project-link-btn">📹 Demo Video</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Project 5 -->
+<div id="modal-project5" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close-modal" onclick="closeModal('project5')">&times;</span>
+            <div class="category">IoT Project • 2025</div>
+            <h2>IoT Weather Data Collector</h2>
+        </div>
+        <div class="modal-body">
+            <div class="project-images">
+                <img src="D:\Portofolio\IMG\IOT WEATHER DATA COLLECTOR.png" alt="Project Screenshot">
+                 <img src="D:\Portofolio\IMG\PA.jpg" alt="Project Screenshot">
+                  <img src="D:\Portofolio\IMG\PA2.jpg" alt="Project Screenshot">
+            </div>
+
+            <div class="project-detail-section">
+                <h3>📋 Project Overview</h3>
+                <p> Developed an advanced IoT-based weather monitoring system using the ESP32 microcontroller to collect and transmit real-time environmental data, including temperature, humidity, 
+                    light intensity, rainfall, and wind speed. The system is fully integrated with the Blynk IoT platform, enabling remote monitoring through a mobile dashboard. Additionally, all 
+                    sensor readings are automatically logged to Google Sheets for long-term data analysis, trend tracking, and reporting. This solution provides an efficient, scalable, and cost-effective 
+                    approach to continuous environmental monitoring. </p>
+            </div>
+
+            <div class="project-detail-section">
+            </div>
+
+            <div class="project-detail-section">
+                <h3>🛠️ Technologies Used</h3>
+                <div class="tech-stack">
+                    <span class="tech-tag">ESP32</span>
+                    <span class="tech-tag">Blynk IoT</span>
+                    <span class="tech-tag">Google Sheets API</span>
+                    <span class="tech-tag">DHT Sensor</span>
+                    <span class="tech-tag">LDR Sensor</span>
+                    <span class="tech-tag">Rain Sensor</span>
+                    <span class="tech-tag">Anemometer</span>
+                    <span class="tech-tag">PCB Design</span>
+                    <span class="tech-tag">C++</span>
+                </div>
+            </div>
+
+            <div class="project-links">
+                <a href="https://github.com/lelybutar/Proyek-Akhir-2" class="project-link-btn">💻 View Project</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Project 6 -->
+<div id="modal-project6" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close-modal" onclick="closeModal('project6')">&times;</span>
+            <div class="category">IoT Project • 2025</div>
+            <h2>IoT Weather Monitoring System</h2>
+        </div>
+        <div class="modal-body">
+            <div class="project-images">
+                <img src="D:\Portofolio\IMG\weather.png" alt="Project Screenshot">
+                <img src="D:\Portofolio\IMG\weather2.png" alt="Project Screenshot">
+                <img src="D:\Portofolio\IMG\weather3.png" alt="Project Screenshot">
+                <img src="D:\Portofolio\IMG\weather4.png" alt="Project Screenshot">
+                <img src="D:\Portofolio\IMG\weather5.png" alt="Project Screenshot">
+                <img src="D:\Portofolio\IMG\weather6.png" alt="Project Screenshot">
+            </div>
+
+            <div class="project-detail-section">
+                <h3>📋 Project Overview</h3>
+               <p>
+                    Developed an IoT Weather Monitoring System using ESP32, LoRa communication, and multiple environmental sensors 
+                    to collect real-time temperature, humidity, and other weather parameters. The system transmits data to an MQTT 
+                    broker, processes it through Node-RED, stores it in a MySQL database, and displays it on a web-based monitoring 
+                    dashboard. Designed with a self-sufficient power system using a solar panel and battery, enabling continuous 
+                    outdoor operation.
+                </p>
+                </div>
+            <div class="project-detail-section">
+            </div>
+
+           <div class="project-detail-section">
+    <h3>🛠️ Technologies Used</h3>
+            <div class="tech-stack">
+                <span class="tech-tag">ESP32</span>
+                <span class="tech-tag">LoRa SX1276</span>
+                <span class="tech-tag">MQTT</span>
+                <span class="tech-tag">Node-RED</span>
+                <span class="tech-tag">MySQL (XAMPP)</span>
+                <span class="tech-tag">DHT22 Sensor</span>
+                <span class="tech-tag">Solar Panel</span>
+                <span class="tech-tag">Battery System</span>
+                <span class="tech-tag">Web Dashboard</span>
+                <span class="tech-tag">HTML/CSS/JavaScript</span>
+                <span class="tech-tag">C++ (Arduino)</span>
+            </div>
+        </div>
+            <div class="project-links">
+                <a href="https://github.com/lelybutar/Tugas-Akhir-1" class="project-link-btn">💻 Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal Project 1 -->
+<div id="modal-project1" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close-modal" onclick="closeModal('project1')">&times;</span>
+            <div class="category">Web Development • 2023</div>
+            <h2>Siregar Aek Nalas Village Website</h2>
+        </div>
+        <div class="modal-body">
+            <div class="project-images">
+                <img src="D:\Portofolio\IMG\p1.png" alt="Project Screenshot 1">
+                <img src="D:\Portofolio\IMG\p1.png" alt="Project Screenshot 2">
+            </div>
+
+            <div class="project-detail-section">
+                <h3>📋 Project Overview</h3>
+                <p>
+                    Developed a comprehensive village profile website for Siregar Aek Nalas to serve as a public information medium. 
+                    The website features an accessible and user-friendly UI/UX design, providing essential village information to residents 
+                    and visitors. Implemented responsive design principles to ensure optimal viewing across all devices.
+                </p>
+            </div>
+
+            <div class="project-detail-section">
+                <h3>✨ Key Features</h3>
+                <ul class="project-features">
+                    <li>Responsive village profile pages with detailed information</li>
+                    <li>News and announcements section for community updates</li>
+                    <li>Photo gallery showcasing village activities and landmarks</li>
+                    <li>Contact information and location map integration</li>
+                    <li>Administrative structure and village officials directory</li>
+                    <li>Optimized loading speed for better user experience</li>
+                </ul>
+            </div>
+
+            <div class="project-detail-section">
+                <h3>🛠️ Technologies Used</h3>
+                <div class="tech-stack">
+                    <span class="tech-tag">HTML5</span>
+                    <span class="tech-tag">CSS3</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Bootstrap</span>
+                    <span class="tech-tag">Responsive Design</span>
+                </div>
+            </div>
+
+            <div class="project-detail-section">
+                <h3>🎯 My Role & Responsibilities</h3>
+                <ul class="project-features">
+                    <li>Full-stack development of the website</li>
+                    <li>UI/UX design and implementation</li>
+                    <li>Content management system setup</li>
+                    <li>Performance optimization and testing</li>
+                    <li>Client communication and requirement gathering</li>
+                </ul>
+            </div>
+
+            <div class="project-links">
+                <a href="#" class="project-link-btn">🔗 Visit Website</a>
+                <a href="#" class="project-link-btn">💻 View Code</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Project 2 -->
+<div id="modal-project2" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close-modal" onclick="closeModal('project2')">&times;</span>
+            <div class="category">Web Development • 2024</div>
+            <h2>Pharmacy Information Website Porsea-Balige</h2>
+        </div>
+        <div class="modal-body">
+            <div class="project-images">
+                <img src="D:\Portofolio\IMG\apotek.png" alt="Project Screenshot">
+            </div>
+
+            <div class="project-detail-section">
+                <h3>📋 Project Overview</h3>
+                <p>
+                    Built a comprehensive pharmacy information website using WordPress and XAMPP, designed to help users 
+                    find and compare medication prices across different pharmacies in the Porsea-Balige region. The platform 
+                    provides detailed pharmacy information categorized by location, making it easier for users to find nearby options.
+                </p>
+            </div>
+
+            <div class="project-detail-section">
+                <h3>✨ Key Features</h3>
+                <ul class="project-features">
+                    <li>Product price comparison across multiple pharmacies</li>
+                    <li>Pharmacy categorization by region (Porsea & Balige)</li>
+                    <li>Detailed pharmacy information pages with contact details</li>
+                    <li>Search functionality for medications and pharmacies</li>
+                    <li>User-friendly interface with WordPress CMS</li>
+                    <li>Comprehensive functional testing completed</li>
+                </ul>
+            </div>
+
+            <div class="project-detail-section">
+                <h3>🛠️ Technologies Used</h3>
+                <div class="tech-stack">
+                    <span class="tech-tag">WordPress</span>
+                    <span class="tech-tag">XAMPP</span>
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">CSS</span>
+                </div>
+            </div>
+
+            <div class="project-links">
+                <a href="#" class="project-link-btn">🔗 Visit Website</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Project 3 -->
+<div id="modal-project3" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close-modal" onclick="closeModal('project3')">&times;</span>
+            <div class="category">Backend Development • 2024</div>
+            <h2>CRUD Web Application & REST API</h2>
+        </div>
+        <div class="modal-body">
+            <div class="project-images">
+                <img src="D:\Portofolio\IMG\API.png" alt="Project Screenshot">
+            </div>
+
+            <div class="project-detail-section">
+                <h3>📋 Project Overview</h3>
+                <p>
+                    Developed a full-featured CRUD (Create, Read, Update, Delete) web application with integrated REST API 
+                    using PHP and MySQL. The application supports all standard HTTP methods and includes comprehensive API 
+                    endpoints for real-time database manipulation, tested thoroughly using Postman.
+                </p>
+            </div>
+
+            <div class="project-detail-section">
+                <h3>✨ Key Features</h3>
+                <ul class="project-features">
+                    <li>Complete CRUD operations (Create, Read, Update, Delete)</li>
+                    <li>RESTful API with GET, POST, PUT, and DELETE methods</li>
+                    <li>Real-time database synchronization</li>
+                    <li>JSON response format for API endpoints</li>
+                    <li>Input validation and error handling</li>
+                    <li>Comprehensive API testing with Postman</li>
+                    <li>Secure database connection and queries</li>
+                </ul>
+            </div>
+
+            <div class="project-detail-section">
+                <h3>🛠️ Technologies Used</h3>
+                <div class="tech-stack">
+                    <span class="tech-tag">PHP</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">REST API</span>
+                    <span class="tech-tag">Postman</span>
+                    <span class="tech-tag">JSON</span>
+                    <span class="tech-tag">XAMPP</span>
+                </div>
+            </div>
+
+            <div class="project-links">
+                <a href="#" class="project-link-btn">💻 View Code</a>
+                <a href="#" class="project-link-btn">📄 API Documentation</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Project 4 -->
+<div id="modal-project4" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close-modal" onclick="closeModal('project4')">&times;</span>
+            <div class="category">IoT & Embedded System • 2024</div>
+            <h2>Automatic Barrier System (RFID)</h2>
+        </div>
+        <div class="modal-body">
+            <div class="project-images">
+                <img src="D:\Portofolio\IMG\IOT.png" alt="Project Screenshot">
+            </div>
+
+            <div class="project-detail-section">
+                <h3>📋 Project Overview</h3>
+                <p>
+                    Created a miniature automatic barrier system using Arduino, RFID technology, and ultrasonic sensors. 
+                    The system provides automated access control with card validation, object detection capabilities, 
+                    and audio-visual feedback through servo motors and buzzer notifications.
+                </p>
+            </div>
+
+            <div class="project-detail-section">
+                <h3>✨ Key Features</h3>
+                <ul class="project-features">
+                    <li>RFID card-based authentication system</li>
+                    <li>Ultrasonic sensor for object detection</li>
+                    <li>Servo motor-controlled barrier mechanism</li>
+                    <li>Buzzer notification system for access status</li>
+                    <li>LCD display for real-time status information</li>
+                    <li>Card validation and access logging</li>
+                    <li>Emergency manual override functionality</li>
+                </ul>
+            </div>
+
+            <div class="project-detail-section">
+                <h3>🛠️ Technologies Used</h3>
+                <div class="tech-stack">
+                    <span class="tech-tag">Arduino</span>
+                    <span class="tech-tag">RFID Module</span>
+                    <span class="tech-tag">Ultrasonic Sensor</span>
+                    <span class="tech-tag">Servo Motor</span>
+                    <span class="tech-tag">C/C++</span>
+                    <span class="tech-tag">Buzzer</span>
+                </div>
+            </div>
+
+            <div class="project-links">
+                <a href="#" class="project-link-btn">💻 View Code</a>
+                <a href="#" class="project-link-btn">📹 Demo Video</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Project 5 -->
+<div id="modal-project5" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close-modal" onclick="closeModal('project5')">&times;</span>
+            <div class="category">IoT Project • 2025</div>
+            <h2>IoT Weather Data Collector</h2>
+        </div>
+        <div class="modal-body">
+            <div class="project-images">
+                <img src="D:\Portofolio\IMG\IOT WEATHER DATA COLLECTOR.png" alt="Project Screenshot">
+            </div>
+
+            <div class="project-detail-section">
+                <h3>📋 Project Overview</h3>
+                <p>
+                    Built an ESP32-based weather monitoring system that collects and transmits real-time environmental data 
+                    including temperature, humidity, light intensity, rainfall, and wind speed. The system integrates with 
+                    Blynk for remote monitoring and automatically logs data to Google Sheets for analysis and record-keeping.
+                </p>
+            </div>
+
+            <div class="project-detail-section">
+                <h3>✨ Key Features</h3>
+                <ul class="project-features">
+                    <li>Real-time temperature and humidity monitoring</li>
+                    <li>Light intensity measurement with LDR sensor</li>
+                    <li>Rainfall detection and measurement</li>
+                    <li>Wind speed monitoring system</li>
+                    <li>Blynk IoT platform integration for remote access</li>
+                    <li>Automatic data logging to Google Sheets</li>
+                    <li>Remote sensor control via mobile app</li>
+                    <li>Custom PCB design for compact implementation</li>
+                    <li>Data visualization and historical analysis</li>
+                </ul>
+            </div>
+
+            <div class="project-detail-section">
+                <h3>🛠️ Technologies Used</h3>
+                <div class="tech-stack">
+                    <span class="tech-tag">ESP32</span>
+                    <span class="tech-tag">Blynk IoT</span>
+                    <span class="tech-tag">Google Sheets API</span>
+                    <span class="tech-tag">DHT Sensor</span>
+                    <span class="tech-tag">LDR Sensor</span>
+                    <span class="tech-tag">Rain Sensor</span>
+                    <span class="tech-tag">Anemometer</span>
+                    <span class="tech-tag">PCB Design</span>
+                    <span class="tech-tag">C++</span>
+                </div>
+            </div>
+
+            <div class="project-links">
+                <a href="#" class="project-link-btn">💻 View Code</a>
+                <a href="#" class="project-link-btn">📊 Live Data</a>
+                <a href="#" class="project-link-btn">📹 Demo Video</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Project 6 -->
+<div id="modal-project6" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close-modal" onclick="closeModal('project6')">&times;</span>
+            <div class="category">IoT Project • 2025</div>
+            <h2>IoT Weather Monitoring System</h2>
+        </div>
+        <div class="modal-body">
+            <div class="project-images">
+                <img src="D:\Portofolio\IMG\IOT WEATHER DATA COLLECTOR.png" alt="Project Screenshot">
+            </div>
+
+            <div class="project-detail-section">
+                <h3>📋 Project Overview</h3>
+                <p>
+                  
+                </p>
+            </div>
+
+            <div class="project-detail-section">
+                <h3>✨ Key Features</h3>
+                <ul class="project-features">
+                    <li>Real-time temperature and humidity monitoring</li>
+                    <li>Light intensity measurement with LDR sensor</li>
+                    <li>Rainfall detection and measurement</li>
+                    <li>Wind speed monitoring system</li>
+                    <li>Blynk IoT platform integration for remote access</li>
+                    <li>Automatic data logging to Google Sheets</li>
+                    <li>Remote sensor control via mobile app</li>
+                    <li>Custom PCB design for compact implementation</li>
+                    <li>Data visualization and historical analysis</li>
+                </ul>
+            </div>
+
+            <div class="project-detail-section">
+                <h3>🛠️ Technologies Used</h3>
+                <div class="tech-stack">
+                    <span class="tech-tag">ESP32</span>
+                    <span class="tech-tag">Blynk IoT</span>
+                    <span class="tech-tag">Google Sheets API</span>
+                    <span class="tech-tag">DHT Sensor</span>
+                    <span class="tech-tag">LDR Sensor</span>
+                    <span class="tech-tag">Rain Sensor</span>
+                    <span class="tech-tag">Anemometer</span>
+                    <span class="tech-tag">PCB Design</span>
+                    <span class="tech-tag">C++</span>
+                </div>
+            </div>
+
+            <div class="project-links">
+                <a href="#" class="project-link-btn">💻 View Code</a>
+                <a href="#" class="project-link-btn">📊 Live Data</a>
+                <a href="#" class="project-link-btn">📹 Demo Video</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Education Section -->
+<section id="education" class="education">
+    <section id="resume" class="resume">
+    <div class="container">
+        <div class="section-title">
+            <h2>My Education</h2>
+        </div>
+        <div class="education-grid">
+            <!-- Institut Teknologi Del -->
+            <div class="education-card">
+                <div class="education-logo">
+                    <img src="D:\Portofolio\IMG\del.png" alt="Institut Teknologi Del">
+                </div>
+                <div class="education-info">
+                    <h3>Del Of Institute Technology</h3>
+                    <p class="degree">D3 Computer Technology | -</p>
+                    <p class="status">2023 | Present</p>
+                </div>
+            </div>
+
+            <!-- SMA Negeri 2 Balige -->
+            <div class="education-card">
+                <div class="education-logo">
+                    <img src="D:\Portofolio\IMG\LOGO SMA.jpg" alt="SMA Negeri 2 Balige">
+                </div>
+                <div class="education-info">
+                    <h3>SMA Negeri 1 Uluan</h3>
+                    <p class="degree">Science Student</p>
+                    <p class="status completed">2019 - 2022 | Completed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience & Organization Section -->
+<section id="experience-organization" class="experience-org">
+    <div class="container">
+        <div class="experience-org-container">
+            <!-- Experience Timeline (Left) -->
+            <div class="timeline-section experience-timeline">
+                <h3>💼 Experience</h3>
+                <div class="timeline">
+                    <!-- Experience 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-icon">💼</div>
+                        <div class="timeline-image">
+                        </div>
+                        <div class="timeline-content">
+                            <h4>Event Commmitte</h4>
+                            <p class="role">Student Quiz Competition - Institut Teknologi Del</p>
+                            <p class="role"><ul>
+                            <li>Responsible for event publication, promotion, and documentation</li>
+                            <li>Collaborated with organizing team for smooth event execution</li>
+                            <li>Achieved high participation rates and positive feedback</li>
+                        </ul></p>
+                            <p class="date">Sep 2024</p>
+                        </div>
+                    </div>
+                    <!-- Experience 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-icon">💼</div>
+                        <div class="timeline-image">
+                        </div>
+                        <div class="timeline-content">
+                            <h4>KPU HIMATEK</h4>
+                            <p class="role">Security Division</p>
+                            <p class="role"><ul>
+                                <li>Ensured security and order throughout student election process</li>
+                                <li>Oversaw voting sessions and ballot counting</li>
+                                <li>Maintained safe and conducive environment</li>
+                        </ul></p>
+                            <p class="date">Sep 2025</p>
+                        </div>
+                    </div>
+
+                    <!-- Tambahkan experience lainnya -->
+                </div>
+            </div>
+
+            <!-- Organization Timeline (Right) -->
+            <div class="timeline-section organization-timeline">
+                <h3> Organization</h3>
+                <div class="timeline">
+                    <!-- Organization 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-icon"></div>
+                        <div class="timeline-image">
+                        </div>
+                        <div class="timeline-content">
+                            <h4>MPM (Student Legislative Body)</h4>
+                            <p class="role">Member of Commission E</p>
+                            <p class="role"><ul>
+                                <li>Responsible for Public Relations, Publications, and Creative Work</li>
+                            <li>Manage internal and external publications including social media</li>
+                            <li>Coordinate with other student organizations</li>
+                            <li>Active in planning, implementation, and evaluation of activities</li>
+                        </ul></p>
+                            <p class="date">Jan 2025 - Present</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</section>
+<section id="skills" class="features">
+    <div class="container">
+        <div class="section-title">
+            <h2>Skills & <span style="color: #f4d03f;">Abilities</span></h2>
+        </div>
+        
+        <!-- Skills Grid -->
+        <div class="skills-grid">
+            <!-- HTML5 -->
+            <div class="skill-icon" data-skill="HTML5">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON HTML5 DISINI -->
+                    📄
+                </div>
+                <span>HTML</span>
+                <div class="skill-detail">HyperText Markup Language</div>
+            </div>
+
+            <!-- CSS3 -->
+            <div class="skill-icon" data-skill="CSS3">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON CSS3 DISINI -->
+                    🎨
+                </div>
+                <span>CSS</span>
+                <div class="skill-detail">Cascading Style Sheets</div>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="skill-icon" data-skill="JavaScript">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON JAVASCRIPT DISINI -->
+                    JS
+                </div>
+                <span>JavaScript</span>
+                <div class="skill-detail">Programming Language</div>
+            </div>
+
+            <!-- React -->
+            <div class="skill-icon" data-skill="React">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON REACT DISINI -->
+                    ⚛️
+                </div>
+                <span>React</span>
+                <div class="skill-detail">JavaScript Library</div>
+            </div>
+
+            <!-- Node.js -->
+            <div class="skill-icon" data-skill="Node.js">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON NODEJS DISINI -->
+                    📗
+                </div>
+                <span>Node.js</span>
+                <div class="skill-detail">JavaScript Runtime</div>
+            </div>
+            <!-- Bootstrap -->
+            <div class="skill-icon" data-skill="Bootstrap">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON BOOTSTRAP DISINI -->
+                    🅱️
+                </div>
+                <span>Bootstrap</span>
+                <div class="skill-detail">CSS Framework</div>
+            </div>
+
+            <!-- PHP -->
+            <div class="skill-icon" data-skill="PHP">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON PHP DISINI -->
+                    🐘
+                </div>
+                <span>PHP</span>
+                <div class="skill-detail">Server-side Language</div>
+            </div>
+
+            <!-- Laravel -->
+            <div class="skill-icon" data-skill="Laravel">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON LARAVEL DISINI -->
+                    🔺
+                </div>
+                <span>Laravel</span>
+                <div class="skill-detail">PHP Framework</div>
+            </div>
+
+            <!-- MySQL -->
+            <div class="skill-icon" data-skill="MySQL">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON MYSQL DISINI -->
+                    🗄️
+                </div>
+                <span>MySQL</span>
+                <div class="skill-detail">Database Management</div>
+            </div>
+
+            <!-- Git -->
+            <div class="skill-icon" data-skill="Git">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON GIT DISINI -->
+                    🌿
+                </div>
+                <span>Git</span>
+                <div class="skill-detail">Version Control</div>
+            </div>
+
+            <!-- Python -->
+            <div class="skill-icon" data-skill="Python">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON PYTHON DISINI -->
+                    🐍
+                </div>
+                <span>Python</span>
+                <div class="skill-detail">Programming Language</div>
+            </div>
+
+            <!-- Data Analytics -->
+            <div class="skill-icon" data-skill="Analytics">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON DATA ANALYTICS DISINI -->
+                    📊
+                </div>
+                <span>Analytics</span>
+                <div class="skill-detail">Data Analysis</div>
+            </div>
+            <!-- Algorithm -->
+            <div class="skill-icon" data-skill="Algorithm">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON ALGORITHM DISINI -->
+                    ✓
+                </div>
+                <span>Algorithm</span>
+                <div class="skill-detail">Problem Solving</div>
+            </div>
+
+            <!-- IoT/Robot -->
+            <div class="skill-icon" data-skill="IoT">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON IOT DISINI -->
+                    🤖
+                </div>
+                <span>IoT</span>
+                <div class="skill-detail">Internet of Things</div>
+            </div>
+
+            <!-- WiFi/Network -->
+            <div class="skill-icon" data-skill="Network">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON NETWORK DISINI -->
+                    📡
+                </div>
+                <span>Network</span>
+                <div class="skill-detail">Computer Networks</div>
+            </div>
+
+            <!-- Server/Database -->
+            <div class="skill-icon" data-skill="Server">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON SERVER DISINI -->
+                    💾
+                </div>
+                <span>Server</span>
+                <div class="skill-detail">Server Management</div>
+            </div>
+
+            <!-- Diagram/Flow -->
+            <div class="skill-icon" data-skill="Diagram">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON DIAGRAM DISINI -->
+                    📋
+                </div>
+                <span>Diagram</span>
+                <div class="skill-detail">System Design</div>
+            </div>
+
+            <!-- Adobe/Design -->
+            <div class="skill-icon" data-skill="Design">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON DESIGN DISINI -->
+                    🎭
+                </div>
+                <span>Design</span>
+                <div class="skill-detail">Graphic Design</div>
+            </div>
+
+            <!-- Video/Media -->
+            <div class="skill-icon" data-skill="Media">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON MEDIA DISINI -->
+                    🎬
+                </div>
+                <span>Media</span>
+                <div class="skill-detail">Multimedia</div>
+            </div>  
+
+            <!-- API -->
+            <div class="skill-icon" data-skill="API">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON API DISINI -->
+                    🔌
+                </div>
+                <span>REST API</span>
+                <div class="skill-detail">API Development</div>
+            </div>
+
+            <!-- Exchange/Integration -->
+            <div class="skill-icon" data-skill="Integration">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON INTEGRATION DISINI -->
+                    🔄
+                </div>
+                <span>Integration</span>
+                <div class="skill-detail">System Integration</div>
+            </div>
+
+            <!-- Layers/Architecture -->
+            <div class="skill-icon" data-skill="Architecture">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON ARCHITECTURE DISINI -->
+                    🏗️
+                </div>
+                <span>Architecture</span>
+                <div class="skill-detail">Software Architecture</div>
+            </div>
+
+            <!-- Chip/Hardware -->
+            <div class="skill-icon" data-skill="Hardware">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON HARDWARE DISINI -->
+                    🔧
+                </div>
+                <span>Hardware</span>
+                <div class="skill-detail">Hardware Design</div>
+            </div>
+
+            <!-- Chart/Analytics 2 -->
+            <div class="skill-icon" data-skill="Analytics2">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON ANALYTICS DISINI -->
+                    📈
+                </div>
+                <span>Analytics</span>
+                <div class="skill-detail">Data Visualization</div>
+            </div>
+
+            <!-- Chart Line -->
+            <div class="skill-icon" data-skill="Statistics">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON STATISTICS DISINI -->
+                    📉
+                </div>
+                <span>Statistics</span>
+                <div class="skill-detail">Statistical Analysis</div>
+            </div>
+
+            <!-- Organization -->
+            <div class="skill-icon" data-skill="Organization">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON ORGANIZATION DISINI -->
+                    🏢
+                </div>
+                <span>Organization</span>
+                <div class="skill-detail">Team Management</div>
+            </div>
+
+            <!-- Checkmark/Complete -->
+            <div class="skill-icon" data-skill="Quality">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON QUALITY DISINI -->
+                    ✅
+                </div>
+                <span>Quality</span>
+                <div class="skill-detail">Quality Assurance</div>
+            </div>
+
+            <!-- Diamond/Git -->
+            <div class="skill-icon" data-skill="GitHub">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON GITHUB DISINI -->
+                    💎
+                </div>
+                <span>GitHub</span>
+                <div class="skill-detail">Code Repository</div>
+            </div>
+
+            <!-- GitHub Logo -->
+            <div class="skill-icon" data-skill="OpenSource">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON OPENSOURCE DISINI -->
+                    🌐
+                </div>
+                <span>Open Source</span>
+                <div class="skill-detail">Open Source Contribution</div>
+            </div>
+
+            <!-- List/Task -->
+            <div class="skill-icon" data-skill="Task">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON TASK DISINI -->
+                    📝
+                </div>
+                <span>Task Mgmt</span>
+                <div class="skill-detail">Task Management</div>
+            </div>
+
+            <!-- Check Circle -->
+            <div class="skill-icon" data-skill="Completion">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON COMPLETION DISINI -->
+                    ⭕
+                </div>
+                <span>Completion</span>
+                <div class="skill-detail">Project Completion</div>
+            </div>
+
+            <!-- Team/Collaboration -->
+            <div class="skill-icon" data-skill="Collaboration">
+                <div class="icon-placeholder">
+                    <!-- MASUKKAN SVG ICON COLLABORATION DISINI -->
+                    👥
+                </div>
+                <span>Teamwork</span>
+                <div class="skill-detail">Team Collaboration</div>
+            </div>
+
+        </div>
+    </div>
+</section>
+ <section id="contact" class="contact">
+    <div class="container">
+        <div class="section-title">
+            <p class="section-subtitle">Get in Touch</p>
+            <h2>Contact Me</h2>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Lely N.F. Butarbutar</h3>
+                <p><strong>Final Year Student</strong><br>D3 Computer Technology - Institut Teknologi Del</p>
+                <p>Click the button below to send me a message via WhatsApp!</p>
+                <div class="contact-details">
+    <p><strong>📞 Phone:</strong> <a href="https://wa.me/6282163282837">+62 821-6328-2837</a></p>
+    <p><strong>✉️ Email:</strong> <a href="mailto:lelybutarbutar0204@gmail.com">lelybutarbutar0204@gmail.com</a></p>
+    <p><strong>📍 Location:</strong> Laguboti, North Sumatra, Indonesia</p>
+</div>
+
+<div class="social-links">
+    <a href="http://www.linkedin.com/in/lely-n-f-butarbutar-5b2419362" target="_blank" title="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lelybutarbutar0204@gmail.com" target="_blank" title="Email">
+        <i class="fas fa-envelope"></i>
+    </a>
+    <a href="https://wa.me/6282163282837" target="_blank" title="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://www.instagram.com/lelybb_?igsh=MTQ3em8xd240ZmNwNQ==" target="_blank" title="Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+</div>
+            </div>
+            <div class="contact-form">
+                <form id="whatsappForm">
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" required placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        📱 Send via WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+    <footer>
+        <p>&copy; 2025 Lely N.F. Butarbutar. All rights reserved.</p>
+    </footer>
+     <script src="app.js
+     "></script>
+</body>
+</html>
