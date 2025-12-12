@@ -217,3 +217,38 @@ document.getElementById('whatsappForm').addEventListener('submit', function(e) {
     // Optional: Show success message
     alert('Opening WhatsApp...');
 });
+// Hamburger Menu Toggle
+function toggleMenu() {
+    const nav = document.getElementById('navMenu');
+    const toggle = document.querySelector('.menu-toggle i');
+    
+    nav.classList.toggle('active');
+    
+    // Change icon
+    if (nav.classList.contains('active')) {
+        toggle.classList.remove('fa-bars');
+        toggle.classList.add('fa-times');
+    } else {
+        toggle.classList.remove('fa-times');
+        toggle.classList.add('fa-bars');
+    }
+}
+
+function closeMenu() {
+    const nav = document.getElementById('navMenu');
+    const toggle = document.querySelector('.menu-toggle i');
+    
+    nav.classList.remove('active');
+    toggle.classList.remove('fa-times');
+    toggle.classList.add('fa-bars');
+}
+
+// Close menu when clicking outside
+document.addEventListener('click', function(event) {
+    const nav = document.getElementById('navMenu');
+    const toggle = document.querySelector('.menu-toggle');
+    
+    if (!nav.contains(event.target) && !toggle.contains(event.target)) {
+        closeMenu();
+    }
+});
